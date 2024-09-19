@@ -3,7 +3,7 @@
 The handwriting recognition task is the Supervised Learning classification task where handwritten images of texts of 2 individuals are fed. The input is the .png text image of individual word with name as "Mani_1.png" or "Priya_1.png".
 The output label will be classified as either "Mani" or "Priya". 
 
-For pre-processing, text image files with multiple sentences are cropped as individual word images. 
+For this pre-processing, text image files with multiple sentences are cropped as individual word images. 
 
 Then, individual word images are trained and classified with different classifiers like SVM, Convolutional Neural Networks and Transformer models. The accuracy and
 percision is checked. The model fit input is word image but output is either 'Mani' or 'Priya' depending on whose handwriting it is.
